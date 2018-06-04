@@ -217,6 +217,7 @@ Implementing a renderer to work with this grammatical approach to tables will re
 #   - apaTables
 #   - apsrtable
 # - higher-level functionality
+#   - huxtable
 #   - tables
 #   - stargazer
 #   - pixiedust
@@ -233,3 +234,5 @@ Implementing a renderer to work with this grammatical approach to tables will re
 # - other
 #   - gtable
 ```
+
+The [huxtable website](https://hughjonesd.github.io/huxtable/design-principles.html) provides a useful breakdown of many of these existing packages.
