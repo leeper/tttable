@@ -1,5 +1,7 @@
 # A grammar of tables
 
+(c) Thomas J. Leeper (2018), licensed [CC-BY](LICENSE.md)
+
 *The Grammar of Graphics* introduced data analysts to an abstract and generalized "grammar" to translate raw data into data visualizations. **ggplot2** implemented those ideas in R. **dplyr** provides a similar grammar for data transformations. These packages have showcased the value of an abstract grammar as an approach to translating a data object into some kind of output and, in particular, have highlighted the value of working with "tidy" data frames as a fundamental unit of data analysis. But lacking from the tidy verse is a grammar of *tables*, the common, rectangular data structure that summarizes a dataset into cells representing subsets of the data, arranged as rows, columns, and facets. This document outlines a grammar of tables and provides a provisional R implementation.
 
 ## Why a grammar of tables?
