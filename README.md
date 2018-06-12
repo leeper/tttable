@@ -202,6 +202,7 @@ Implementing a renderer to work with this grammatical approach to tables will re
 ```
 # - renderers
 #   - xtable
+#   - flextable
 #   - rtf
 #   - knitr::kable()
 #   - formatttable
