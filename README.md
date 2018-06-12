@@ -99,6 +99,8 @@ aggregate(Freq ~ ., data = as.data.frame(Titanic), FUN = sum)
 
 Other tables with the same arrangement as the first might be created from an alternative summarizer, such as taking the mean age of subset, proportion of women, etc.
 
+A good example of many common summarizers designed in a tidy framework can be found in [the `tabyl()` functionality](https://cran.r-project.org/package=janitor/vignettes/tabyls.html) of [the **janitor** package](https://cran.r-project.org/package=janitor).
+
 
 ### Arrangements
 
@@ -217,6 +219,7 @@ Implementing a renderer to work with this grammatical approach to tables will re
 #   - apaTables
 #   - apsrtable
 # - higher-level functionality
+#   - janitor
 #   - huxtable
 #   - tables
 #   - stargazer
