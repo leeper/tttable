@@ -195,7 +195,7 @@ The *renderer* of the table convey the cell content, arrangement, metadata, and 
  - Excel
  - others?
 
-Implementing a renderer to work with this grammatical approach to tables will require a set of renderers that respect an general grammar of arrangement and the format-independent expression of a theme. Existing rendering functions - xtable, kable, rtf, stargazer, etc. etc. - are probably not going to be adequate.
+Implementing a renderer to work with this grammatical approach to tables will require a set of renderers that respect a general grammar of arrangement and the format-independent expression of a theme. Existing rendering functions - xtable, kable, rtf, stargazer, DT, etc. etc. - are probably not going to be adequate to work with all formats.
 
 # Relevant existing packages and functions
 
@@ -219,6 +219,7 @@ Implementing a renderer to work with this grammatical approach to tables will re
 #   - apaStyle
 #   - apaTables
 #   - apsrtable
+#   - DT
 # - higher-level functionality
 #   - janitor
 #   - huxtable
